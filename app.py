@@ -6,7 +6,7 @@ import numpy as np
 st.write(f"## Crop Prediction Application")
 st.write("Author: Mahesh Kurhe")
 
-Crop_prediction_model = pickle.load(open(r"C:\Users\Mahesh\Desktop\Crop Prediction\Crop_prediction.sav", "rb"))
+Crop_prediction_model = pickle.load(open(r"Crop_prediction.sav", "rb"))
 with st.sidebar:
     selected = option_menu("Crop Prediction", ["Crop prediction"])
 
